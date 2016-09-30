@@ -1,0 +1,30 @@
+.cf::after {
+  display: block;
+  content: '';
+  height: 0;
+  clear: both;
+}
+
+.tile-set, .tile-map {
+  float: left;
+  border: 2px solid black;
+}
+
+.tile-map {
+  margin-left: 15px;
+}
+
+.tile-set {
+  cursor: pointer;
+}
+
+.dragable-tile {
+  position: absolute;
+}
+
+#map-store {
+  margin-top: 15px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 18px;
+}
